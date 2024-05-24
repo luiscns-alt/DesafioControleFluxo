@@ -2,6 +2,10 @@ package org.example;
 
 import java.util.Scanner;
 
+/**
+ * The Contador class is a simple program that prompts the user for two integer parameters and counts from the first parameter to the second parameter.
+ * If the second parameter is smaller than the first parameter, a ParametrosInvalidosException is thrown.
+ */
 public class Contador {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
